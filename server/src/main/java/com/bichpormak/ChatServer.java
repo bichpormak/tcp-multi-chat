@@ -31,7 +31,7 @@ public class ChatServer {
 
         } catch (IOException e) {
 
-            RuntimeException runtimeException = new RuntimeException();
+            RuntimeException runtimeException = new RuntimeException("Server is not running");
             runtimeException.initCause(e);
             throw runtimeException;
 
