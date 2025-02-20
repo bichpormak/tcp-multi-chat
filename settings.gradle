@@ -1,0 +1,4 @@
+rootProject.name = 'tcp-multi-chat'
+
+include 'server'
+include 'client'
